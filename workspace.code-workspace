@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "7SegmentCountDown",
+			"path": "7SegmentCountDown"
+		},
+		{
+			"name": "knight_rider",
+			"path": "knight_rider"
+		}
+	],
+	"settings": {}
+}
