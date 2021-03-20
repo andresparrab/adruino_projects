@@ -1,16 +1,32 @@
 {
-	"folders": [
-		{
-			"path": "."
-		},
-		{
-			"name": "7SegmentCountDown",
-			"path": "7SegmentCountDown"
-		},
-		{
-			"name": "knight_rider",
-			"path": "knight_rider"
-		}
-	],
-	"settings": {}
+  "folders": [
+    {
+      "path": "."
+    },
+    {
+      "name": "7SegmentCountDown",
+      "path": "7SegmentCountDown"
+    },
+    {
+      "name": "knight_rider",
+      "path": "knight_rider"
+    },
+    {
+      "name": "test",
+      "path": "test"
+    },
+    {
+      "name": "Switch",
+      "path": "Switch"
+    },
+    {
+      "name": "dice",
+      "path": "dice"
+    },
+    {
+      "name": "TipsAndTricks",
+      "path": "TipsAndTricks"
+    }
+  ],
+  "settings": {}
 }
