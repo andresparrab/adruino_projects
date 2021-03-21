@@ -26,7 +26,23 @@
     {
       "name": "TipsAndTricks",
       "path": "TipsAndTricks"
+    },
+    {
+      "name": "reflexTest",
+      "path": "reflexTest"
+    },
+    {
+      "name": "BlinkLedWithHeaderfiles",
+      "path": "BlinkLedWithHeaderfiles"
+    },
+    {
+      "name": "7segmentsWithHeaders",
+      "path": "7segmentsWithHeaders"
     }
   ],
-  "settings": {}
+  "settings": {
+    "files.associations": {
+      "seven.h": "c"
+    }
+  }
 }

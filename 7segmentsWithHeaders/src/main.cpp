@@ -1,5 +1,4 @@
 #include <avr/io.h> // this give us acces to input output pins
-#include <stdlib.h>
 #include <util/delay.h>
 extern "C"
 {

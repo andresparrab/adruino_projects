@@ -1,7 +1,6 @@
 
 
 #include <avr/io.h>
-//extern int pins[];
 
 void setSegmentPins(int *pins)
 {
@@ -19,11 +18,6 @@ void setSegmentPins(int *pins)
         }
     }
 }
-
-/*Sets all segments so that the display shows numbers from 
-0-9. If numbers 10-19 are put in then the display should show
-the number -10 so 10 becomes 0, 11 becomes 1 and so on, but the dot should also be lit. 
-If any other number than 0-19 is entered the display should be completely turned off. */
 void setDisplayNumber(int nr)
 {
     //int numbersAnod[10] = {192, 0, 194, 16, 145, 201, 133, 37, 207, 2}; // from 9 t 0
@@ -73,32 +67,3 @@ void setDisplayNumber(int nr)
         break;
     }
 }
-
-// void digitalWrite(int pin, int mode)
-// {
-//     if (pin == 13)
-//     {
-//         if (mode == 1)
-//         {
-//             PORTB |= (1 << PB5);
-//         }
-//         else
-//         {
-//             PORTB &= ~(1 << PB5);
-//         }
-//     }
-// }
-
-// // int segment_pins[] = {13, 12, 11, 10, 7, 6, 5, 4};
-
-// void setPin(int pin, int mode)
-// {
-//     if (pin < 14 && pin > 7)
-//     {
-//         // turn pin on
-//         if (mode > 0)
-//         {
-//             /* code */
-//         }
-//     }
-// }
